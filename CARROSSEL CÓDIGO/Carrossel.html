@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel</title>
+
+    <!-- Incluir bibliotecas Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Estilos CSS (opcional) -->
+    <style>
+        .carousel {
+            width: 80%; /* Ajuste conforme necessário */
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Estrutura HTML do Carrossel -->
+    <div class="carousel">
+        <div><img src="Imagens/CARRO1.jpg" alt="Imagem 1"></div>
+        <div><img src="Imagens/CARRO2.jpg" alt="Imagem 2"></div>
+        <div><img src="Imagens/CARRO3.jpg" alt="Imagem 3"></div>
+        <!-- Adicione mais divs conforme necessário -->
+    </div>
+
+    <!-- Inicialização do Slick Carousel -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 2000, // Tempo de exibição de cada imagem em milissegundos
+                dots: true, // Mostrar pontos de navegação
+                arrows: true // Mostrar setas de navegação
+                // Outras opções podem ser adicionadas conforme necessário
+            });
+            
+        });
+    </script>
+
+</body>
+</html>
