@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+    margin: 0;
+    text-align: justify;
+}
+
+
+
+.titulo {
+    color: red;
+    font-size: 30px;
+}
+
+.text {
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#texto{
+    margin: auto;
+    width: 70%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card {
+    margin-top: 35px;
+    width: 90%;
+    background-color: rgb(56, 56, 56);
+    border: 0;
+    margin-left: 0;
+    height: 10rem;
+    width: 10rem;
+}
+
+#fotos{
+    display: flex;
+    gap: 4rem;
+    
+}
+
+
+.card h5 {
+    color: white;
+}
+
+.card img {
+    border-radius: 70%;
+    height: 10rem;
+    width: 10rem;
+    
+}
+
+#footer {
+    background-color: black;
+    padding: 15px;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0px 30px 0 30px;
+}
+
+#fundadores{
+    height: 20rem;
+    margin: auto;
+    width: 70%;
+}
+
+#links{
+    width: 30%;
+    margin: auto;
+}
+
+.card-body{
+    margin: auto;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+#premios{
+    width: 100vw;
+    height: 20rem;
+    background-color: blue;
+    padding: 2rem;
+}
+
+#textoprincipal{
+    width: 70%;
+    margin: auto;
+    font-size: 30px;
+    color: red;
+}
